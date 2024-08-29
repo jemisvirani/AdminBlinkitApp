@@ -18,7 +18,6 @@ class OrderFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentOrderBinding.inflate(layoutInflater)
-        Log.e("OrderFragment", "onCreateView: ")
         return binding.root
     }
 
