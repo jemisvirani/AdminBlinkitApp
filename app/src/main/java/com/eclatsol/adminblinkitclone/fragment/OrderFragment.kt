@@ -1,6 +1,7 @@
 package com.eclatsol.adminblinkitclone.fragment
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,6 +18,7 @@ class OrderFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentOrderBinding.inflate(layoutInflater)
+        Log.e("OrderFragment", "onCreateView: ")
         return binding.root
     }
 
